@@ -1,0 +1,102 @@
+22:29:00.417 [JavaFX App] DEBUG FXGLLoggerFactory    - Service [LoggerFactory] initialized
+22:29:00.432 [JavaFX App] INFO  FXGL                 - FXGL configuration complete
+22:29:00.432 [JavaFX App] DEBUG FXGL                 - Loading FXGL system data
+22:29:00.436 [JavaFX App] DEBUG IOTask               - Executing task: readDataTask(system/fxgl.bundle)
+22:29:00.441 [JavaFX App] DEBUG FS                   - Reading from: system\fxgl.bundle
+22:29:00.454 [JavaFX App] DEBUG IOTask               - Task succeeded: readDataTask(system/fxgl.bundle)
+22:29:00.455 [JavaFX App] DEBUG Bundle               - Logging bundle: FXGL
+22:29:00.456 [JavaFX App] DEBUG Bundle               - FXGL.version.check=2016-08-07
+22:29:00.461 [JavaFX App] DEBUG GameApplication      - Starting Game Application
+22:29:00.465 [JavaFX App] DEBUG FXGLEventBus         - Service [EventBus] initialized
+22:29:00.481 [JavaFX App] DEBUG FXGLExecutor         - Service [Executor] initialized
+22:29:00.491 [JavaFX App] DEBUG GameWorld            - Game world initialized
+22:29:00.613 [JavaFX App] DEBUG PhysicsWorld         - Physics world initialized
+22:29:00.678 [JavaFX App] DEBUG GameScene            - Game scene initialized: 640.0x700.0
+22:29:00.778 [JavaFX App] DEBUG AssetLoader          - Service [AssetLoader] initialized
+22:29:00.781 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/sounds/system/notification.wav
+22:29:00.830 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/select.wav
+22:29:00.833 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/back.wav
+22:29:00.836 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/press.wav
+22:29:00.839 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/Copperplate_Gothic_Light_Regular.ttf
+22:29:00.974 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl.css
+22:29:00.975 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/ui/icons/fxgl_icon.png
+22:29:01.069 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+22:29:01.104 [JavaFX App] DEBUG FXGLDisplay          - Target size: DoubleProperty [value: 640.0] x DoubleProperty [value: 700.0] @ 1.0
+22:29:01.105 [JavaFX App] DEBUG FXGLDisplay          - New size:    640.0 x 700.0 @ DoubleProperty [value: 1.0]
+22:29:01.106 [JavaFX App] DEBUG FXGLDisplay          - Service [Display] initialized
+22:29:01.107 [JavaFX App] DEBUG FXGLDisplay          - Using CSS: CSS(externalForm=jar:file:/C:/Users/Whit/IdeaProjects/Breakout2/lib/FXGL-0.2.5-uber.jar!/assets/ui/css/fxgl_dark.css)
+22:29:01.116 [JavaFX App] DEBUG FXGLInput            - Service [Input] initialized
+22:29:01.117 [JavaFX App] DEBUG FXGLInput            - Registered new binding: Screenshot - P
+22:29:01.118 [JavaFX App] DEBUG FXGLInput            - Registered new binding: Developer Options - CTRL+0
+22:29:01.119 [JavaFX App] DEBUG GameApplication      - Initializing global event handlers
+22:29:01.192 [JavaFX App] DEBUG FXGLMasterTimer      - Service [MasterTimer] initialized
+22:29:01.226 [JavaFX App] DEBUG FXGLEventBus         - Firing event: SaveEvent
+22:29:01.230 [JavaFX App] DEBUG FXGLInput            - Saving data to profile
+22:29:01.231 [JavaFX App] DEBUG Bundle               - Logging bundle: input
+22:29:01.231 [JavaFX App] DEBUG Bundle               - input.Screenshot=P
+22:29:01.231 [JavaFX App] DEBUG Bundle               - input.Developer Options=CTRL+0
+22:29:01.231 [JavaFX App] DEBUG FXGLDisplay          - Saving data to profile
+22:29:01.231 [JavaFX App] DEBUG Bundle               - Logging bundle: scene
+22:29:01.231 [JavaFX App] DEBUG Bundle               - scene.sizeW=640.0
+22:29:01.231 [JavaFX App] DEBUG Bundle               - scene.sizeH=700.0
+22:29:01.234 [JavaFX App] DEBUG FXGLAudioPlayer      - Service [AudioPlayer] initialized
+22:29:01.234 [JavaFX App] DEBUG FXGLAudioPlayer      - Saving data to profile
+22:29:01.234 [JavaFX App] DEBUG Bundle               - Logging bundle: audio
+22:29:01.235 [JavaFX App] DEBUG Bundle               - audio.musicVolume=0.5
+22:29:01.235 [JavaFX App] DEBUG Bundle               - audio.soundVolume=0.5
+22:29:01.236 [JavaFX App] DEBUG AchievementManager   - Service [AchievementManager] initialized
+22:29:01.236 [JavaFX App] DEBUG AchievementManager   - Saving data to profile
+22:29:01.236 [JavaFX App] DEBUG Bundle               - Logging bundle: achievement
+22:29:01.237 [JavaFX App] DEBUG FXGLMasterTimer      - Saving data to profile
+22:29:01.237 [JavaFX App] DEBUG Bundle               - Logging bundle: timer
+22:29:01.237 [JavaFX App] DEBUG Bundle               - timer.playtime=0
+22:29:01.237 [JavaFX App] DEBUG GameApplication      - Starting new game
+22:29:01.243 [JavaFX App] DEBUG GameApplication      - Initializing App
+22:29:01.245 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+22:29:01.246 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+22:29:01.247 [JavaFX App] DEBUG FXGLMasterTimer      - Stopping master timer
+22:29:01.247 [JavaFX App] DEBUG GameApplication      - State: STARTUP -> PAUSED
+22:29:01.249 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=RESET]
+22:29:01.249 [JavaFX App] DEBUG GameWorld            - Resetting game world
+22:29:01.249 [JavaFX App] TRACE EntityWorld          - Resetting entity world
+22:29:01.253 [JavaFX App] DEBUG PhysicsWorld         - Resetting physics world
+22:29:01.254 [JavaFX App] DEBUG GameScene            - Resetting game scene
+22:29:01.254 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+22:29:01.254 [JavaFX App] DEBUG FXGLMasterTimer      - Resetting ticks and clearing all actions
+22:29:01.340 [JavaFX App] DEBUG GameApplication      - State: PAUSED -> LOADING
+22:29:01.435 [JavaFX App] DEBUG GameApplication      - Starting FXGL Init Thread
+22:29:01.437 [FXGL Init ] DEBUG InitAppTask          - Initializing Assets
+22:29:01.453 [FXGL Init ] DEBUG AssetLoader          - Loading from disk: /assets/textures/ball.png
+22:29:01.464 [FXGL Init ] DEBUG AssetLoader          - Loading from disk: /assets/textures/brick.png
+22:29:01.466 [FXGL Init ] DEBUG AssetLoader          - Loading from disk: /assets/textures/paddle.png
+22:29:01.773 [JavaFX App] DEBUG FXGLDisplay          - Showing stage
+22:29:01.773 [JavaFX App] DEBUG FXGLDisplay          - Root size: 640.0x700.0
+22:29:01.773 [JavaFX App] DEBUG FXGLDisplay          - Scene size: 640.0x700.0
+22:29:01.773 [JavaFX App] DEBUG FXGLDisplay          - Stage size: 658.0x747.0
+22:29:02.001 [JavaFX App] INFO  GameApplication      - GameApplication start took: 1.540494539 sec
+22:29:02.263 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/sounds/menu/back.wav
+22:29:02.263 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/sounds/menu/press.wav
+22:29:02.263 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/sounds/menu/select.wav
+22:29:02.263 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/sounds/system/notification.wav
+22:29:03.550 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/Copperplate_Gothic_Light_Regular.ttf
+22:29:03.780 [FXGL Init ] DEBUG InitAppTask          - Initializing Game
+22:29:03.795 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/textures/paddle.png
+22:29:03.797 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/textures/ball.png
+22:29:03.797 [FXGL Init ] DEBUG InitAppTask          - Initializing Physics
+22:29:03.798 [FXGL Init ] DEBUG InitAppTask          - Initializing UI
+22:29:03.798 [FXGL Init ] DEBUG InitAppTask          - Initialization Complete
+22:29:03.798 [FXGL Init ] INFO  InitAppTask          - Game init took: 2.360980654 sec
+22:29:03.799 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=INIT_APP_COMPLETE]
+22:29:03.800 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=RESUME]
+22:29:03.800 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+22:29:03.801 [JavaFX App] DEBUG FXGLMasterTimer      - Starting master timer
+22:29:03.801 [JavaFX App] DEBUG GameApplication      - State: LOADING -> PLAYING
+22:29:03.810 [JavaFX App] TRACE Entity               - Initializing entity
+22:29:03.811 [JavaFX App] DEBUG GameScene            - Entity added to scene
+22:29:03.811 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+22:29:03.814 [JavaFX App] DEBUG GameScene            - Creating render group for layer: TOP(2147483647)
+22:29:03.821 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+22:29:03.821 [JavaFX App] TRACE Entity               - Initializing entity
+22:29:03.821 [JavaFX App] DEBUG GameScene            - Entity added to scene
+22:29:03.821 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+22:29:03.822 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
